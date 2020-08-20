@@ -1,0 +1,98 @@
+.employeeDetails{
+    justify-content: center;
+    display: flex;
+    margin: 5px;
+    margin: 20px 10px;
+}
+.employeeDetailsBlock{
+    background-color: white;
+    padding: 20px;
+    font-size: 16px;
+    width: 60%;
+}
+.empView{
+    display: flex;
+}
+.details{
+    flex: 70%;
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 600;
+    color: darkblue;
+}
+.details>div{
+  padding: 5px;
+}
+.photo{
+    flex: 30%;
+}
+.btn{
+    border: none;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.displayDetails{
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+  .detailsPhoto{
+    align-self: center;
+  }
+  .empDetailsHeader{
+    font-weight: 700;
+    font-size: 20px;
+    font-style: italic;
+  }
+  p > span{
+    padding:0 10px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  p{
+    font-size: 18px;
+    font-style: italic;
+    color: maroon;
+  }
+.errorFlag{
+  text-align: center;
+  color: Red;
+  font-weight: 700;
+  margin: 0;
+}
+
+  .content {
+    justify-content: center;
+    display: flex;
+}
+  
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .vewDetailsBtn{
+    background-color: darkgrey;
+    text-align: center;
+    border-radius: 30px;
+    width: fit-content;
+    padding: 5px;
+  }
+  .labelNaming{
+    padding-right: 5px;
+  }
+  .namingValue{
+    word-break: break-all;
+    color: slateblue;
+  }

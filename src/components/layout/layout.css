@@ -1,0 +1,77 @@
+.flex-container {
+    display: flex;
+    background-color: #57595b;
+    align-items: baseline;
+    padding: 10px;
+  }
+  .header{
+    flex-grow: 3;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .navBar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  .flex-content{
+    display: flex;
+    background-color: #57595b;
+    align-items: baseline;
+  }
+  .flex-content > div >a{
+    color: white;
+    padding: 10px;
+  }
+  .navContents{
+    display: flex;
+  }
+  .mobileNavContent{
+    display: none;
+  }
+  .dropdown-content {
+    display: none;
+  }
+  .nameLink{
+    background-color: coral;
+    border-radius: 20px;
+    font-size: 18px;
+  }
+  .logout{
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 700px) {
+    .navContents{
+      display: none;
+    }
+    .flex-content  {   
+      flex-direction: column;
+    }
+    .mobileNavContent{
+      font-size: 20px;
+      display: inline;
+    }
+    .dropdown-content {
+      display: inline;
+      position: absolute;
+      right: 0;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      z-index: -auto;
+      top: 50px;
+    }
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  }
+ 
